@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C2C4A0E1F94BACE00B22745 /* MGLMapView+ClusterKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2C4A0C1F94BACE00B22745 /* MGLMapView+ClusterKit.h */; };
+		9C2C4A0E1F94BACE00B22745 /* MGLMapView+ClusterKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2C4A0C1F94BACE00B22745 /* MGLMapView+ClusterKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C53CD191E03F51C000AD9B8 /* CKClusterAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C53CD041E03F51C000AD9B8 /* CKClusterAlgorithm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C53CD1A1E03F51C000AD9B8 /* CKClusterAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C53CD051E03F51C000AD9B8 /* CKClusterAlgorithm.m */; };
 		9C53CD1B1E03F51C000AD9B8 /* CKNonHierarchicalDistanceBasedAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C53CD061E03F51C000AD9B8 /* CKNonHierarchicalDistanceBasedAlgorithm.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -20,7 +20,7 @@
 		9C53CD221E03F51C000AD9B8 /* CKAnnotationTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C53CD0E1E03F51C000AD9B8 /* CKAnnotationTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C53CD231E03F51C000AD9B8 /* CKQuadTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C53CD0F1E03F51C000AD9B8 /* CKQuadTree.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9C53CD241E03F51C000AD9B8 /* CKQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C53CD101E03F51C000AD9B8 /* CKQuadTree.m */; };
-		9C53CD291E03F51C000AD9B8 /* MKMapView+ClusterKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C53CD171E03F51C000AD9B8 /* MKMapView+ClusterKit.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9C53CD291E03F51C000AD9B8 /* MKMapView+ClusterKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C53CD171E03F51C000AD9B8 /* MKMapView+ClusterKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C53CD2A1E03F51C000AD9B8 /* MKMapView+ClusterKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C53CD181E03F51C000AD9B8 /* MKMapView+ClusterKit.m */; };
 		9CAA8B9E1E2BE1C800AD4063 /* CKGridBasedAlgorithmTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAA8B9D1E2BE1C800AD4063 /* CKGridBasedAlgorithmTest.m */; };
 		9CAA8BA01E2BE3DF00AD4063 /* CKNonHierarchicalDistanceBasedAlgorithmTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CAA8B9F1E2BE3DF00AD4063 /* CKNonHierarchicalDistanceBasedAlgorithmTest.m */; };
@@ -248,13 +248,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C53CD1F1E03F51C000AD9B8 /* CKClusterManager.h in Headers */,
-				9C53CD291E03F51C000AD9B8 /* MKMapView+ClusterKit.h in Headers */,
 				9C53CD221E03F51C000AD9B8 /* CKAnnotationTree.h in Headers */,
 				9C53CD1B1E03F51C000AD9B8 /* CKNonHierarchicalDistanceBasedAlgorithm.h in Headers */,
 				9CE1F2691E069F30007E2678 /* CKGridBasedAlgorithm.h in Headers */,
 				9C53CD1D1E03F51C000AD9B8 /* CKCluster.h in Headers */,
 				9C53CD211E03F51C000AD9B8 /* CKMap.h in Headers */,
 				9C2C4A0E1F94BACE00B22745 /* MGLMapView+ClusterKit.h in Headers */,
+				9C53CD291E03F51C000AD9B8 /* MKMapView+ClusterKit.h in Headers */,
 				9C53CD191E03F51C000AD9B8 /* CKClusterAlgorithm.h in Headers */,
 				9CC875F31E02AE2D0019AA18 /* ClusterKit.h in Headers */,
 				9C53CD231E03F51C000AD9B8 /* CKQuadTree.h in Headers */,
