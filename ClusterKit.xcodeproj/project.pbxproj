@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		834AB687214D4A9D00CD6B13 /* MGLMapView+ClusterKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2C4A0D1F94BACE00B22745 /* MGLMapView+ClusterKit.m */; };
+		834AB68A214D4D3A00CD6B13 /* MapboxMobileEvents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834AB688214D4D3A00CD6B13 /* MapboxMobileEvents.framework */; };
+		834AB68B214D4D3A00CD6B13 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834AB689214D4D3A00CD6B13 /* Mapbox.framework */; };
 		9C2C4A0E1F94BACE00B22745 /* MGLMapView+ClusterKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2C4A0C1F94BACE00B22745 /* MGLMapView+ClusterKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C53CD191E03F51C000AD9B8 /* CKClusterAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C53CD041E03F51C000AD9B8 /* CKClusterAlgorithm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C53CD1A1E03F51C000AD9B8 /* CKClusterAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C53CD051E03F51C000AD9B8 /* CKClusterAlgorithm.m */; };
@@ -44,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		834AB688214D4D3A00CD6B13 /* MapboxMobileEvents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MapboxMobileEvents.framework; sourceTree = "<group>"; };
+		834AB689214D4D3A00CD6B13 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
 		9C2C4A0C1F94BACE00B22745 /* MGLMapView+ClusterKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MGLMapView+ClusterKit.h"; path = "ClusterKit/Mapbox/MGLMapView+ClusterKit.h"; sourceTree = SOURCE_ROOT; };
 		9C2C4A0D1F94BACE00B22745 /* MGLMapView+ClusterKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MGLMapView+ClusterKit.m"; path = "ClusterKit/Mapbox/MGLMapView+ClusterKit.m"; sourceTree = SOURCE_ROOT; };
 		9C4C93E11E4250D500927A42 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				834AB68A214D4D3A00CD6B13 /* MapboxMobileEvents.framework in Frameworks */,
+				834AB68B214D4D3A00CD6B13 /* Mapbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +187,8 @@
 		9CC875651E0295A20019AA18 = {
 			isa = PBXGroup;
 			children = (
+				834AB689214D4D3A00CD6B13 /* Mapbox.framework */,
+				834AB688214D4D3A00CD6B13 /* MapboxMobileEvents.framework */,
 				9CC875B41E029A900019AA18 /* Metadata */,
 				9C53CD011E03F51C000AD9B8 /* ClusterKit */,
 				9CC875711E0295A30019AA18 /* Framework */,
@@ -519,6 +527,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Framework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -539,6 +551,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/Framework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
