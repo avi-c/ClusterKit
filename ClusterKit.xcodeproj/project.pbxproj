@@ -321,6 +321,7 @@
 				TargetAttributes = {
 					9CC8756E1E0295A30019AA18 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = JVL9YPNS8B;
 						ProvisioningStyle = Automatic;
 					};
 					9CC875771E0295A30019AA18 = {
@@ -521,9 +522,9 @@
 		9CC875841E0295A30019AA18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = JVL9YPNS8B;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -547,7 +548,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = JVL9YPNS8B;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
